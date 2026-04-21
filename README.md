@@ -1,6 +1,7 @@
 # 📊 Odds Analytics & Market Efficiency Tool
 
-![Project Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueXN4Znd4Znd4Znd4Znd4Znd4Znd4Znd4Znd4Znd4Znd4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCBmPTAmY3Q9Zw/3oKIPEqDHFuXXnhoef/giphy.gif)
+![Project Demo](./assests/Betting_analysis.gif)
+
 *(Napomena: Ovde možeš staviti link ka GIF-u tvog ekrana dok skroluješ kroz dashboard)*
 
 ## 🚀 The Vision
