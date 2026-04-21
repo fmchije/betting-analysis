@@ -1,0 +1,13 @@
+# Go binary
+main.exe
+main
+
+# Node modules
+node_modules/
+
+# Environment variables (Lozinke!)
+.env
+
+# Python cache
+__pycache__/
+venv/
