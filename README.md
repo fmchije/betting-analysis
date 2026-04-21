@@ -2,7 +2,6 @@
 
 ![Project Demo](./assets/Betting-analysis.gif)
 
-*(Napomena: Ovde možeš staviti link ka GIF-u tvog ekrana dok skroluješ kroz dashboard)*
 
 ## 🚀 The Vision
 I built this project to solve a specific problem: most betting tools provide raw data, but few allow for **historical backtesting of market efficiency**. This system tracks how odds shift from opening to closing lines (**CLV - Closing Line Value**), allowing users to identify patterns and calculate real-time ROI across different leagues.
