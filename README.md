@@ -1,6 +1,6 @@
 # 📊 Odds Analytics & Market Efficiency Tool
 
-![Project Demo](./assests/Betting_analysis.gif)
+![Project Demo](./assets/Betting-analysis.gif)
 
 *(Napomena: Ovde možeš staviti link ka GIF-u tvog ekrana dok skroluješ kroz dashboard)*
 
