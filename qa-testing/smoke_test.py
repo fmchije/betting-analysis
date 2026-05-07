@@ -11,7 +11,7 @@ async def run_smoke_test():
         
         try:
             # 1. Provera da li se sajt učitava
-            await page.goto("http://localhost:5173/") # Zameni sa tvojim URL-om
+            await page.goto("http://localhost:5173/") 
             await page.wait_for_load_state("networkidle")
             
             # 2. Provera naslova ili nekog ključnog elementa
@@ -20,7 +20,7 @@ async def run_smoke_test():
             print("✅ Dashboard header 'Backtesting Analiza' is visible.")
 
             # 3. Provera da li su podaci stigli iz API-ja (npr. provera da li tabela postoji)
-            # Čekamo da se pojavi selektor za tvoju tabelu sa podacima
+            # Čekamo da se pojavi selektor za tabelu sa podacima
             await page.wait_for_selector("tbody tr", timeout=8000)
             rows = await page.locator("tbody tr").count()
             if rows > 0:
