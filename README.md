@@ -20,7 +20,7 @@ I built this project to solve a specific problem: most betting tools provide raw
 ---
 
 ## 🏗️ System Architecture & Features
-![Database Schema](assets/ER Diagram.png)
+![Database Schema](assets/ER Diagram.jpg)
 
 ### 1. Data Acquisition (The "Cleaner")
 The Python scraper uses **Playwright** to navigate dynamic content. 
