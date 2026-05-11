@@ -67,7 +67,7 @@ During the development of the scraper, I encountered a significant challenge wit
 ---
 
 ## 🔧 Installation & Setup
-1. **Database:** Import the provided SQL schema into your MySQL instance.
+1. **Database:** Import the [provided SQL schema](./database_klad_schema.sql) into your MySQL instance.
 2. **Backend:** Run `go run main.go` (ensure `DB_URL` env variable is set).
 3. **Frontend:** Run `npm install` and `npm start`.
 
