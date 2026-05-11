@@ -38,6 +38,16 @@ The React dashboard uses **Chart.js** to transform thousands of rows into action
 * **Dynamic Filtering:** Users can toggle between "Lige Petice", "Evrokupovi", or custom date ranges.
 * **Responsive Design:** Fully optimized for different screen sizes using Tailwind's utility-first approach.
 
+---
+
+### 🛠️ QA & Technical Troubleshooting
+During the development of the scraper, I encountered a significant challenge with asynchronous data loading on the sportsbook's platform.
+
+* **Issue:** The DOM elements for match scores were present but contained placeholder comments `` before the actual data was rendered. This led to empty strings being captured instead of numerical scores.
+
+* **Solution:** I implemented a robust validation layer using Python’s isdigit() and Regex to verify data presence before processing. I also decoupled the data acquisition logic from the score-checking logic to ensure the script continues even if a match hasn't started yet.
+
+* **Impact:** This ensured 100% data integrity for historical backtesting and prevented the script from crashing on empty or "pending" results, allowing for a seamless transition from "live" to "finished" match statuses.
 
 
 ---
